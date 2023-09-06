@@ -41,6 +41,6 @@ namespace Web_API.Models.User
         public string Phone { get; set; }
 
         // Nagvigation Property for User
-        public ICollection<Bookings> Booking { get; set; }
+        public ICollection<Bookings.Booking> Bookings { get; set; }
     }
 }

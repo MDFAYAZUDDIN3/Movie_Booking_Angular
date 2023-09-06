@@ -25,10 +25,10 @@ namespace Web_API.Models.Show
         public Show Show { get; set; }
 
         public int CinemaSeatID { get; set; }
-        public CinemaSeat CinemaSeat { get; set; }
+        public Cinema.CinemaSeat CinemaSeat { get; set; }
 
         public int? BookingID { get; set; }
-        public Booking Booking { get; set; }
+        public Bookings.Booking Booking { get; set; }
 
     }
 }
